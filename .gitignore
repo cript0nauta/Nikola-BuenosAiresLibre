@@ -40,3 +40,4 @@ posts/*
 stories/*
 output/*
 cache/*
+.doit.db
