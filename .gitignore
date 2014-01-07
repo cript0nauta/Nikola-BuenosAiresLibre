@@ -38,3 +38,5 @@ nosetests.xml
 *.sw?
 posts/*
 stories/*
+output/*
+cache/*
