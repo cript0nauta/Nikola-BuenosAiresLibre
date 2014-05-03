@@ -1,0 +1,10 @@
+[Core]
+Name = rest_playlists
+Module = playlists
+
+[Documentation]
+Author = Matías Lang
+Version = 0.1
+Website = http://licenciaparahackear.wordpress.com/
+Description = Añade de manera sencilla playlists de audio a un post o página
+
