@@ -33,7 +33,7 @@ function make_playlist ( $element,playlist, options, success)
         // Audio mix playlist
         $.getJSON(playlist, function(d) {
             myPlaylist.setPlaylist(d.playlist);
-            success();
+            success(myPlaylist);
         });
     });
 }
