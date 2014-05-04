@@ -21,7 +21,7 @@ function make_playlist ( $element,playlist, options, success)
             cssSelectorAncestor: '#' + id_container 
         }, [], $.extend({
             playlistOptions: {
-                enableRemoveControls: true
+                enableRemoveControls: false
             },
             swfPath: "js",
             supplied: "webmv, ogv, m4v, oga, mp3",

@@ -60,8 +60,9 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/archive.html', 'Archives'),
+        ('/archive.html', 'Archivo'),
         ('/categories/index.html', 'Tags'),
+        ('/shared', 'Documentos compartidos'),
         ('/rss.xml', 'RSS'),
     ),
 }
@@ -327,7 +328,7 @@ COMMENT_SYSTEM = None
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-# COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = ""
 
 # Create index.html for story folders?
 # STORY_INDEX = False

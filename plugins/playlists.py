@@ -30,7 +30,7 @@ from docutils.parsers.rst import Directive, directives
 from random import randrange
 
 from nikola.plugin_categories import RestExtension
-from nikola.utils import req_missing
+#from nikola import req_missing
 
 
 class Plugin(RestExtension):
